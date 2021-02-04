@@ -2,8 +2,8 @@
   "index_name": "dev_documentation",
   "start_urls": [
   {
-    "url": "https://github.com/pooki3bear/shuffle-docs/tree/master/docs/",
-    "selectors_key": "start"
+    "url": "https://github.com/pooki3bear/shuffle-docs/tree/master/docs/API.md",
+    "selectors_key": "default"
   }],
   "stop_urls": [],
   "selectors": {

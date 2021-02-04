@@ -1,0 +1,5 @@
+{
+  "index_name": "dev_documentation",
+  "start_urls": ["https://github.com/pooki3bear/shuffle-docs/tree/master/docs/(.*\\.md)"],
+  "stop_urls": []
+}

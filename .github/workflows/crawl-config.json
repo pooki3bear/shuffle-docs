@@ -3,7 +3,25 @@
   "start_urls": [
   {
     "url": "https://github.com/pooki3bear/shuffle-docs/tree/master/docs/",
-    "selectors_key": ".js-navigation-open"
+    "selectors_key": "start"
   }],
-  "stop_urls": []
+  "stop_urls": [],
+  "selectors": {
+    "start": {
+      "lvl0": ".js-navigation-open",
+      "lvl1": ".docs h2",
+      "lvl2": ".docs h3",
+      "lvl3": ".docs h4",
+      "lvl4": ".docs h5",
+      "text": ".docs p, .docs li"
+    },
+    "default": {
+      "lvl0": ".readme h1",
+      "lvl1": ".readme h2",
+      "lvl2": ".readme h3",
+      "lvl3": ".readme h4",
+      "lvl4": ".readme h5",
+      "text": ".readme p, .readme li, .readme ul"
+    }
+  }
 }

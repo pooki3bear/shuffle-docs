@@ -2,6 +2,9 @@
   "index_name": "dev_documentation",
   "start_urls": ["https://github.com/pooki3bear/shuffle-docs/tree/master/docs/(.*\\.md)"],
   "stop_urls": [],
-  "lvl0": "#readme h1",
-  "lvl1": "#readme h2"
+  "selectors": {
+    "lvl0": "#readme h1",
+    "lvl1": "#readme h2",
+    "text": "#readme p, #readme ul, #readme ol"
+  }
 }

@@ -1,6 +1,6 @@
 {
   "index_name": "dev_documentation",
-  "start_urls": ["https://github.com/pooki3bear/shuffle-docs/tree/master/docs/"],
+  "start_urls": ["https://github.com/pooki3bear/shuffle-docs/tree/master/docs/API.md"],
   "stop_urls": [],
   "selectors": {
     "lvl0": "#readme h1",
